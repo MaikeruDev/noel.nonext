@@ -93,7 +93,7 @@ export default function MichaelPortfolio() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Full-Stack Developer & UI/UX Designer at nonext
+              Full-Stack Developer & Database Engineer at nonext
             </motion.p>
             <motion.div
               className="flex justify-center space-x-4"
