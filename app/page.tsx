@@ -129,7 +129,7 @@ export default function MichaelPortfolio() {
             <h3 className="text-3xl font-bold mb-12 text-center">Skills & Expertise</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {skills.map((skill, index) => (
-                <Card key={index} className="bg-black border-2 border-white/50 text-white hover:bg-white/10 transition-all">
+                <Card key={index} className="bg-black border-2 border-white/50 text-white hover:bg-white/10 duration-300 transition-all">
                   <CardContent className="p-6">
                     <div className="flex items-center mb-4">
                       <div className="text-white">{skill.icon}</div>
@@ -176,7 +176,7 @@ export default function MichaelPortfolio() {
             <h3 className="text-3xl font-bold mb-12 text-center">Tech Stacks</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {techStacks.map((stack, index) => (
-                <Card key={index} className="bg-black border-2 border-white/50 text-white hover:bg-white/10 transition-all">
+                <Card key={index} className="bg-black border-2 border-white/50 text-white hover:bg-white/10 duration-300 transition-all">
                   <CardContent className="p-6">
                     <div className="flex items-center mb-4">
                       <div className="text-white">{stack.icon}</div>
@@ -201,9 +201,9 @@ export default function MichaelPortfolio() {
               I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me through any of the following channels:
             </p>
             <div className="flex justify-center space-x-6 mb-2">
-              <a href="https://github.com/FIEF-nohell" className="text-3xl hover:text-gray-300 transition-colors" aria-label="GitHub Profile"><FaGithub /></a>
-              <a href="https://www.instagram.com/noel_her/" className="text-3xl hover:text-gray-300 transition-colors" aria-label="LinkedIn Profile"><FaInstagram /></a>
-              <a href="mailto:nh@nonext.io" className="text-3xl hover:text-gray-300 transition-colors" aria-label="Email Contact"><FaEnvelope /></a>
+              <a href="https://github.com/FIEF-nohell" className="text-3xl hover:text-gray-700 transition-colors" aria-label="GitHub Profile"><FaGithub /></a>
+              <a href="https://www.instagram.com/noel_her/" className="text-3xl hover:text-gray-700 transition-colors" aria-label="LinkedIn Profile"><FaInstagram /></a>
+              <a href="mailto:nh@nonext.io" className="text-3xl hover:text-gray-700 transition-colors" aria-label="Email Contact"><FaEnvelope /></a>
             </div>
           </div>
         </section>
